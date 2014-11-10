@@ -50,19 +50,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="40" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+            <state line="3" column="0" selection-start="83" selection-end="83" vertical-scroll-proportion="0.12765957" vertical-offset="0" max-vertical-offset="423">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="api.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="11" selection-start="834" selection-end="835" vertical-scroll-proportion="1.2765957" vertical-offset="0" max-vertical-offset="702">
+            <state line="55" column="7" selection-start="1465" selection-end="1465" vertical-scroll-proportion="0.0" vertical-offset="639" max-vertical-offset="1080">
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -73,7 +73,7 @@
       <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bower.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="59" selection-end="59" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="522">
+            <state line="16" column="19" selection-start="305" selection-end="305" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="522">
               <folding />
             </state>
           </provider>
@@ -102,7 +102,6 @@
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/src/bootstrap.min.css.js" />
         <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/api/server.js" />
         <option value="$PROJECT_DIR$/app/views/list.html" />
         <option value="$PROJECT_DIR$/app/js/controller.js" />
         <option value="$PROJECT_DIR$/bower.json" />
@@ -112,6 +111,7 @@
         <option value="$PROJECT_DIR$/app/src/app.js" />
         <option value="$PROJECT_DIR$/app/src/controller.js" />
         <option value="$PROJECT_DIR$/api/api.js" />
+        <option value="$PROJECT_DIR$/api/server.js" />
       </list>
     </option>
   </component>
@@ -305,7 +305,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2967033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2967033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -427,9 +427,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="21" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="59" selection-end="59" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="522">
+        <state line="16" column="19" selection-start="305" selection-end="305" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="522">
           <folding />
         </state>
       </provider>
@@ -437,13 +444,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="9" selection-start="10" selection-end="10" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="144">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="21" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
           <folding />
         </state>
       </provider>
@@ -462,19 +462,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="40" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="11" selection-start="834" selection-end="835" vertical-scroll-proportion="1.2765957" vertical-offset="0" max-vertical-offset="702">
+        <state line="55" column="7" selection-start="1465" selection-end="1465" vertical-scroll-proportion="0.0" vertical-offset="639" max-vertical-offset="1080">
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="83" selection-end="83" vertical-scroll-proportion="0.12765957" vertical-offset="0" max-vertical-offset="423">
+          <folding />
         </state>
       </provider>
     </entry>
