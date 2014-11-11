@@ -7,5 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ariel robles <ariel_556@hotmail.com> (https://github.com/ariellyrycs/)",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.10.2",
+    "mongoose": "^3.8.19",
+    "multiparty": "^4.0.0"
+  }
 }

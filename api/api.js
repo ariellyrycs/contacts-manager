@@ -2,14 +2,12 @@
  * Created by arobles on 11/10/14.
  */
 var express = require('express'),
-    Bourne = require('bourne'),
-
     multiparty = require('multiparty'),
-
-    db = new Bourne('data.json'),
-    router = expres.Router();
+    router = express();
 
 
+
+/*
 router.use(function (req, res, next) {
         if(!req.user) {
             req.user = {id: 1};
@@ -25,11 +23,11 @@ router.route('/contact')
     .post(function (req, res) {
         form = new multiparty.Form();
         form.parse(req, function(err, fields, files) {
-            /*var contact = req.body;
+            var contact = req.body;
             contact.userId = req.ison.id;
             db.insert(contact, function (err, data) {
                 res.json(data);
-            });*/
+            });
         });
     });
 router.param('id', function (req, res, next){
@@ -49,9 +47,9 @@ router.route('/contact/:id')
             res.json(data[0]);
         });
     })
-    .delete(function () {
-        db.delete(ewq.dbQuery, function () {
+    .delete(function (req, res) {
+        db.delete(req.dbQuery, function () {
             res.json(null);
         });
-    });
+    });*/
 module.exports = router;
